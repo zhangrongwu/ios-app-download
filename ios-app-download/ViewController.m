@@ -11,7 +11,7 @@
 #import "ZipArchive.h"
 #import "AFNetworking.h"
 #define UNZIPPATH  [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject]
-#define BASEURL  @"https://api-icome.enncloud.cn/"
+#define BASEURL  @"服务器api"
 @interface ViewController ()
 @property (nonatomic, strong) UIView *weexView;
 @property (nonatomic, assign) CGFloat weexHeight;
